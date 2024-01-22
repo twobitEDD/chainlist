@@ -4138,7 +4138,13 @@ export const extraRpcs = {
   },
 217: {
   rpcs:["https://rpc2.siriusnet.io"]
-}
+},
+  43970: {
+    rpcs:[    
+      "https://rpc.serv.services",
+      "https://rpc-testnet.serv.services",
+    ],
+  }
 };
 const allExtraRpcs = mergeDeep(llamaNodesRpcs, extraRpcs);
 
